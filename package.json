@@ -1,0 +1,14 @@
+{
+  "name": "jenkins-node-build",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "jade src/* -o dist"
+  },
+  "author": "Yuhei Yasuda <yuhei@ryden.co.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "jade": "^1.11.0"
+  }
+}
